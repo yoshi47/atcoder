@@ -5,10 +5,15 @@ edition = "2018"
 
 [package.metadata.cargo-compete.bin]
 abc174-a = { alias = "a", problem = "https://atcoder.jp/contests/abc174/tasks/abc174_a" }
+abc174-b = { alias = "b", problem = "https://atcoder.jp/contests/abc174/tasks/abc174_b"}
 
 [[bin]]
 name = "abc174-a"
 path = "src/bin/a.rs"
+
+[[bin]]
+name = "abc174-b"
+path = "src/bin/b.rs"
 
 [dependencies]
 num = "=0.2.1"
