@@ -9,3 +9,5 @@ cargo compete new --problems a b --open abc081
 cargo compete test a
 
 cargo compete submit a
+
+cargo compete add abc081 c --open
